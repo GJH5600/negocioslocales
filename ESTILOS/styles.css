@@ -57,12 +57,12 @@ html::-webkit-scrollbar-thumb{
     font-family: 'Kalam', sans-serif;
 }
 body{
-    /* background: var(--bg-color-2); */
-    background-image: url('https://res.cloudinary.com/dsaaep5js/image/upload/v1724424631/FONDO_PRINCIPAL_nl6uwo.png');
+    background: var(--bg-color-2);
+    /* background-image: url('https://res.cloudinary.com/dsaaep5js/image/upload/v1724424631/FONDO_PRINCIPAL_nl6uwo.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 section{
     padding: 2rem 9%;
@@ -686,6 +686,11 @@ section{
 /* ESTILOS GALERIA DE VIDEOS */
 .videos{
     padding: 2rem 0;
+    background-image: url('https://res.cloudinary.com/dsaaep5js/image/upload/v1724424631/FONDO_PRINCIPAL_nl6uwo.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 .container-video{
     display: grid;
@@ -791,12 +796,12 @@ section{
 footer{
     background: #183153;
     color: var(--bg-color-1);
-    height: 60px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+   /* margin-top: 10px; */
 }
 footer p{
     font-weight: lighter;
