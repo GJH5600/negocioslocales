@@ -1,9 +1,11 @@
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
+let iconos_sociales = document.querySelector('.iconos-sociales');
 
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
+    iconos_sociales.classList.remove('active');
 }
 //BOton Scroll Top
 window.onscroll = () =>{
