@@ -644,7 +644,7 @@ section{
 }
 
 .container-video .video-list{
-    background: var(--celeste);
+    background: none;
     border-radius: 10px;
     height: 455px;
     overflow-y: scroll;
