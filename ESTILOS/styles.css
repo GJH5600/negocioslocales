@@ -651,7 +651,7 @@ section{
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.3); */
 }
 
 .container-video .video-list h3{
@@ -665,12 +665,12 @@ section{
 }
 
 .container-video .video-list::-webkit-scrollbar-track{
-    background: var(--celeste);
+    background: var(--bg-color-1);
     border-radius: 1rem;
 }
 
 .container-video .video-list::-webkit-scrollbar-thumb{
-    background: var(--bg-color-1);
+    background: var(--celeste);
     border-radius: 1rem;
 }
 
@@ -689,6 +689,7 @@ section{
     padding: 10px;
     border: 1px solid rgb(252, 251, 251);
     cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
 }
 
 .container-video .video-list .vid:hover{
