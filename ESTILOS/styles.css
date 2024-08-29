@@ -646,7 +646,7 @@ section{
 .container-video .video-list{
     background: none;
     border-radius: 10px;
-    height: 455px;
+    height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -661,7 +661,7 @@ section{
 }
 
 .container-video .video-list::-webkit-scrollbar{
-    width: .5rem;
+    width: .7rem;
 }
 
 .container-video .video-list::-webkit-scrollbar-track{
@@ -675,8 +675,10 @@ section{
 }
 
 .container-video .video-list .vid video{
-    width: 100px;
-    border-radius: 7px;
+    width: 125px;
+/*     border-radius: 7px; */
+    border-radius: 5px 0 0 5px;
+    box-shadow: .5rem 0 .8rem rgba(0, 0, 0, .4); /* Sombra a la derecha */
 }
 
 .container-video .video-list .vid{
@@ -686,7 +688,7 @@ section{
     background: var(--bg-color-2);
     border-radius: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 0 10px 0 0;
     border: 1px solid rgb(252, 251, 251);
     cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
@@ -699,6 +701,12 @@ section{
 .container-video .video-list .vid.active{
     background: var(--celeste);
     color: var(--bg-color-1);
+}
+@media (max-width: 1280px){
+    .container-video{
+        grid-template-columns: 2fr 1fr;
+        padding: 10px 5%;
+    }
 }
 
 @media (max-width:991px) {
