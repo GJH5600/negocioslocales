@@ -842,7 +842,7 @@ footer .wave {
     animation: float 1.5s linear infinite;
 }
 #scroll-top.active{
-    top: calc(100% - 12rem);
+    top: calc(100% - 15rem);
 }
 
 /* ESTILOS PANTALLA DE CARGA */
